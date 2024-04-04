@@ -12,6 +12,6 @@ module "hai" {
 
 module "vpc" {
   source   = "./Template/vpc"
-  vpc_type = "vpc-green"
+  vpc_type = "vpc-blue" #change to "vpc-blue" or "vpc-green" depending on which vpc to create
 }
 
